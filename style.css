@@ -96,6 +96,9 @@ background-color:orange ;
     background: #faf7f7;
     margin-top: 230px;
 }
+.para{
+  margin-top: 75px;
+}
 .masss{
     background-color: orange;
 }
@@ -109,9 +112,12 @@ background-color:orange ;
 .why-us{
   background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvqt58_w3jsJPJs1gQiu1EBCgjyO7kvF0BLR_7qwqBiaCHf2g-");
 }
+.btns{
+  margin-left: 60px;
+}
 
 .feedback{
-  background: linear-gradient(rgb(229, 229, 233), rgba(249, 249, 250, 0.7)), url(./images/istockphoto-636621016-612x612.jpg);
+  background: linear-gradient(rgb(255, 255, 255), rgba(249, 249, 250, 0.93)), url("https://i.pinimg.com/736x/42/6b/60/426b6034078b5dad008549806d1d5631.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +132,7 @@ background-color:orange ;
 }
 
 .heros-header {
-    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(./images/pexels-pixabay-33545.jpg);
+    background: linear-gradient(rgba(241, 241, 244, 0.959), rgba(20, 20, 31, .7)), url(./images/pexels-pixabay-33545.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +230,7 @@ background-color:orange ;
     
   }
   .footer{
-    background: linear-gradient(rgb(229, 229, 233), rgba(249, 249, 250, 0.847)), url(./images/istockphoto-636621016-612x612.jpg);
+    background: linear-gradient(rgb(255, 255, 255), rgb(249, 249, 250)), url("https://i.pinimg.com/736x/42/6b/60/426b6034078b5dad008549806d1d5631.jpg");
 
     background-size: cover;
   }
