@@ -1,0 +1,274 @@
+
+
+#nav {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+#stan{
+  color: orange;
+  font-weight: 600;
+  font-size: larger; 
+}
+#stapp{
+    font-weight: 500;
+    font-size: 9px;
+    margin-top: -15px;
+}
+#mass{
+background-color:orange ;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 15px 0px 15px;
+}
+.navbar a {
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;  
+    color: gray;
+    
+}
+
+/* //hero */
+.hero-header {
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(./images/23348.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: rgba(255, 255, 255, .5);
+}
+
+.home-name{
+    font-family: "Kalam", cursive;
+}
+
+.page-style{
+  font-family: "Merriweather", serif;
+  font-size: 13px;
+  color: gray
+
+}
+.header-up{
+  font-family: "PT Serif", serif;
+
+}
+.bg{
+    background-color: rgba(243, 234, 234, 0.219);
+}
+.Specailist{
+    margin-top: -40px;
+    color: rgb(18, 97, 170);
+}
+.spec{
+  color: rgb(18, 97, 170);
+
+}
+.Philippines{
+    color: rgb(228, 213, 213);
+    font-family: "Dancing Script", cursive;
+    font-size: 70px;
+
+}
+.plane{
+    width: 40vh;
+    translate: -100px ;
+}
+.planes{
+    width: 80px;
+    translate: 40px;
+}
+.cards{
+    background: #faf7f7;
+    margin-top: 230px;
+}
+.masss{
+    background-color: orange;
+}
+.destiny{
+    background-color: rgb(9, 54, 54);
+}
+
+.img .img-item:hover .img-content {
+  background: rgba(0, 0, 0, 0.69);
+}
+.why-us{
+  background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRvqt58_w3jsJPJs1gQiu1EBCgjyO7kvF0BLR_7qwqBiaCHf2g-");
+}
+
+.feedback{
+  background: linear-gradient(rgb(229, 229, 233), rgba(249, 249, 250, 0.7)), url(./images/istockphoto-636621016-612x612.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* booking */
+.booking {
+    background: linear-gradient(rgba(12, 29, 7, 0.7), rgba(3, 188, 59, 0.7)), url(./images/keyboard_ss_1200.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heros-header {
+    background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)), url(./images/pexels-pixabay-33545.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* packages */
+
+.packages .packages-item .packages-img {
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 1;
+}
+
+/* corrosal */
+#image-track {
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%); 
+    user-select: none; /* -- Prevent image highlighting -- */
+  }
+  
+  #image-track > .image {
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: 100% center;
+  }
+  
+  /* -- YouTube Link Styles -- */
+  
+  body.menu-toggled > .meta-link > span {
+    color: rgb(30, 30, 30);
+  }
+  
+  #source-link {
+    bottom: 60px;
+  }
+  
+  #source-link > i {
+    color: rgb(94, 106, 210);
+  }
+  
+  #yt-link > i {
+    color: rgb(239, 83, 80);
+  }
+  
+  .meta-link {
+    align-items: center;
+    backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;  
+    display: inline-flex;
+    gap: 5px;
+    left: 10px;
+    padding: 10px 20px;
+    position: fixed;
+    text-decoration: none;
+    transition: background-color 400ms, border-color 400ms;
+    z-index: 10000;
+  }
+  
+  .meta-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .meta-link > i, .meta-link > span {
+    height: 20px;
+    line-height: 20px;
+  }
+  
+  .meta-link > span {
+    color: white;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+  }
+
+  .machu{
+    text-decoration: none;
+  }
+  .stand{
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    margin-left: 700px;
+    
+  }
+  .footer{
+    background: linear-gradient(rgb(229, 229, 233), rgba(249, 249, 250, 0.847)), url(./images/istockphoto-636621016-612x612.jpg);
+
+    background-size: cover;
+  }
+  
+  .amigo{
+    width: 220px;
+    height: 50vh;
+  }
+  .iconset{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon , .up-arrow{
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,brown,rgb(30, 30, 88));
+}
+.icon:hover i{
+    color: rgb(252, 252, 252);
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10% {
+        transform: rotate(15deg);
+    }
+    20% {
+        transform: rotate(-15deg);
+    }
+}
+footer{
+    margin: 3rem 0px;
+}
+
+
